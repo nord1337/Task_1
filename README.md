@@ -13,10 +13,10 @@
 | Поле        | Тип данных   | Ограничения     | Описание                          |
 |-------------|--------------|-----------------|-----------------------------------|
 | `Id`        | INTEGER      | PRIMARY KEY     | Уникальный идентификатор запроса |
-| `Method`    | TEXT         | NOT NULL        | HTTP-метод (GET, POST и т.д.)     |
+| `Method`    | TEXT         | NOT NULL        | HTTP-метод     |
 | `StartDate` | DATETIME     | NOT NULL        | Время начала запроса             |
 | `EndDate`   | DATETIME     | NOT NULL        | Время завершения запроса         |
-| `Path`      | TEXT         | NOT NULL        | Запрашиваемый путь               |
+| `Path`      | TEXT         | NOT NULL        | Route запроса             |
 | `StatusCode`| INTEGER      | NOT NULL        | HTTP-статус ответа                |
 
 # Структура проекта
